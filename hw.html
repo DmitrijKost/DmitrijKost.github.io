@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Функции</title>
+    <script src="js.js"></script>
+</head>
+<body style="background-image:url(fon.jpg)">
+    <form>
+        <input type="number" name="a" value="0">
+        <input type="button" onclick="alert(fuct(a.value))" value="Вычислить факториал">
+        <input type="reset" value="reset">
+    </form>
+    <form>
+        <input type="number" name="a" value="0">
+        <input type="button" onclick="alert(fib(a.value))" value="Вычислить число фибонначчи">
+        <input type="reset" value="reset">
+    </form>
+    <form id="form">
+        <input type="number" name="a" value="0">
+        <input type="reset" value="Добавить элемент" onclick="func(a.value)">
+        <input type="button" onclick="sort()" value="Отсортировать массив">
+        <input type="reset" onclick="Reset()" value="reset">
+    </form>
+
+</body>
+</html>
